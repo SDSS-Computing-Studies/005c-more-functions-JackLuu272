@@ -21,3 +21,4 @@ def btcTocad():
 
 
 assert btcTocad(1) == 45000
+
