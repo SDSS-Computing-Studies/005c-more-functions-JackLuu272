@@ -14,7 +14,7 @@ assert converTemp(32,'F') == 0
 """
 
 def convertTemp(a,b):
-    if b = "C":
+    if b == "C":
         return (a*1.8)+32
-    elif b = "F":
+    elif b == "F":
         return (a-32)/1.8
