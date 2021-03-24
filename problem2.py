@@ -13,3 +13,11 @@ assert hypotenuse(12,5,False) == 13
 assert hypotenuse(5,3,True) == 4
 (2 points)
 """
+import math
+def hypotenuse(a,b,boole):
+    if boole = "False":
+        return math.sqrt(a**2+b**2)
+    elif boole = "True" and a > b:
+        return math.sqrt(a**2-b**2)
+    elif boole = "True" and a < b:
+        return math.sqrt(b**2-a**2)
