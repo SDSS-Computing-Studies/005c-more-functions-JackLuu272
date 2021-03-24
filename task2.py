@@ -16,16 +16,7 @@ def largest():
 
 assert largest([3,10,3]) == 10
 
-list = []
-
-n = int(input("Enter numbers of value: "))
-
-for i in range(0,n):
-    elements = float(input(""))
-
-    list.append(elements)
-
 def largest(list):
+    list = []
     return max(list)
 
-print(max(list))

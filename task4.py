@@ -16,3 +16,10 @@ def area():
 
 
 assert round(area(2),2) == 12.57
+
+import math 
+
+def area(a):
+    return round((math.pi*(a**2)),2)
+
+
