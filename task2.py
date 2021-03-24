@@ -10,11 +10,11 @@ Sample assertions:
 assert largest([3,10,3]) == 10
 """
 
-def largest():
-    pass
-    return
+#def largest():
+    #pass
+    #return
 
-assert largest([3,10,3]) == 10
+#assert largest([3,10,3]) == 10
 
 def largest(list):
     list = []

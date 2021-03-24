@@ -15,10 +15,10 @@ assert hypotenuse(6,8) == 10
 """
 
 
-def hypotenuse():
-    pass
+#def hypotenuse():
+    #pass
 
-assert hypotenuse(6,8) == 10
+#assert hypotenuse(6,8) == 10
 
 import math
 
