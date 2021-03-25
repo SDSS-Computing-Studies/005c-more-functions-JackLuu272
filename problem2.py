@@ -23,4 +23,3 @@ def hypotenuse(a,b,boole):
     elif boole == True and a < b:
         return math.sqrt(b**2-a**2)
 
-print(hypotenuse(12,3,True))
